@@ -9,11 +9,11 @@ cache:
     - node_modules/
 
 stages:
-  - test
+  - lint
   - build
 
-test:
-  stage: test
+lint:
+  stage: lint
   script:
     - cd src/
     - web-ext lint
