@@ -7,8 +7,8 @@ the respective subreddit.
 
 [matrix-community]: https://matrix.to/#/!bVaYOBVQxZkGOMpzkc:matrix.org "Matrix Invite"
 [documentation]: https://elypia.gitlab.io/r-slash "Project Documentation"
-[gitlab]: https://gitlab.com/Elypia/r-slash/commits/master "Repository on GitLab"
+[gitlab]: https://gitlab.com/Elypia/r-slash/commits/main "Repository on GitLab"
 
 [Matrix]: https://img.shields.io/matrix/elypia:matrix.org?logo=matrix "Matrix Shield"
-[Build]: https://gitlab.com/Elypia/r-slash/badges/master/pipeline.svg "GitLab Build Shield"
-[Coverage]: https://gitlab.com/Elypia/r-slash/badges/master/coverage.svg "GitLab Coverage Shield"
+[Build]: https://gitlab.com/Elypia/r-slash/badges/main/pipeline.svg "GitLab Build Shield"
+[Coverage]: https://gitlab.com/Elypia/r-slash/badges/main/coverage.svg "GitLab Coverage Shield"
