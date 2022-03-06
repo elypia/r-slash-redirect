@@ -1,0 +1,13 @@
+image: node:16.14.0-alpine3.15
+
+before_script:
+  - npm i -g web-ext
+
+build:
+  stage: build
+  script:
+    - cd src/
+    - web-ext build
+  artifacts:
+    paths:
+      - src/web-ext-artifacts/
