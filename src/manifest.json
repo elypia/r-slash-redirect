@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "r/Slash",
+  "version": "1.0.0",
+  "description": "Redirects r/… from the URL bar or search engines to the respective subreddit.",
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "permissions": [
+    "webNavigation"
+  ],
+  "background": {
+    "scripts": [
+      "scripts/background.js"
+    ]
+  },
+  "omnibox": {
+    "keyword": "r/"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "rslash@elypia.org"
+    }
+  }
+}
