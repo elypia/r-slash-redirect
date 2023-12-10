@@ -1,13 +1,21 @@
-# r/slash
-[![Matrix]][matrix-community] [![Build]][gitlab]
+# r/Redirect
+
+[![Build Status](https://gitlab.com/Elypia/r-redirect/badges/main/pipeline.svg)](https://gitlab.com/Elypia/r-redirect/commits/main)
 
 ## About
-Extension for browsers to redirect `r/…` from the URL bar or search engines to
-the respective subreddit.
 
-[matrix-community]: https://matrix.to/#/!bVaYOBVQxZkGOMpzkc:matrix.org "Matrix Invite"
-[documentation]: https://elypia.gitlab.io/r-slash "Project Documentation"
-[gitlab]: https://gitlab.com/Elypia/r-slash/commits/main "Repository on GitLab"
+An add-on for browsers to redirect `r/…` from the URL bar or search engines to the respective subreddit.
 
-[Matrix]: https://img.shields.io/matrix/elypia:matrix.org?logo=matrix "Matrix Shield"
-[Build]: https://gitlab.com/Elypia/r-slash/badges/main/pipeline.svg "GitLab Build Shield"
+* Override searches for `r/…` in popular search engines to redirect immediately to the respective subreddit.
+* Registers a keyword, so that when you type `r/ `, you search with the r/Redirect add-on which takes you to the respective subreddit.
+
+## LibRedirect
+
+This add-on pairs well with [LibRedirect](https://libredirect.github.io/). If you install LibRedirect and enable Reddit redirection, you'll be redirected to your preferred privacy-friendly Reddit frontend like [Libreddit](https://github.com/libreddit/libreddit).
+
+## Alternatives
+
+You can instead use DuckDuckGo as your default search engine. DuckDuckGo features [Bangs](https://duckduckgo.com/bangs) which can achieve a similar result, no add-on required.
+
+1. Set DuckDuckGo as your [default search engine](https://duckduckgo.com/set-as-default).
+2. In the URL bar on DuckDuckGo search page, use the `sr` bang, short for **s**ub**r**eddit. Searches like `!sr …` will perform the same behavior as this extension.
