@@ -37,56 +37,57 @@ const globalUrlFilter = {
 const urlFilter = {
   url: [
     {
-      hostEquals: 'baidu.com',
+      hostSuffix: '.baidu.com',
       pathEquals: '/s',
-      queryContains: 'wd',
+      queryContains: 'wd=',
       ...globalUrlFilter
     },
     {
-      hostEquals: 'bing.com',
+      hostSuffix: '.bing.com',
       pathEquals: '/search',
-      queryContains: 'q',
+      queryContains: 'q=',
       ...globalUrlFilter
     },
     {
       hostEquals: 'duckduckgo.com',
       pathEquals: '/',
-      queryContains: 'q',
+      queryContains: 'q=',
       ...globalUrlFilter
     },
     {
-      hostEquals: 'ecosia.org',
+      hostSuffix: '.ecosia.org',
       pathEquals: '/search',
-      queryContains: 'q',
+      queryContains: 'q=',
       ...globalUrlFilter
     },
     {
       hostContains: '.google.',
       pathEquals: '/search',
-      queryContains: 'q',
+      queryContains: 'q=',
       ...globalUrlFilter
     },
     {
-      hostEquals: 'onesearch.com',
-      pathEquals: '/yhs/search',
-      queryContains: 'q',
+      hostSuffix: '.onesearch.com',
+      pathContains: '/yhs/search',
+      queryContains: 'q=',
       ...globalUrlFilter
     },
     {
-      hostEquals: 'startpage.com',
+      hostSuffix: '.startpage.com',
       pathEquals: '/sp/search',
-      queryContains: 'q',
+      queryContains: 'q=',
       ...globalUrlFilter
     },
     {
-      hostEquals: 'yahoo.com',
+      hostSuffix: '.yahoo.com',
       pathEquals: '/search',
+      queryContains: 'p=',
       ...globalUrlFilter
     },
     {
       hostContains: '.yandex.',
-      pathEquals: '/search',
-      queryContains: 'text',
+      pathPrefix: '/search',
+      queryContains: 'text=',
       ...globalUrlFilter
     }
   ]

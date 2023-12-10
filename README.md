@@ -7,7 +7,7 @@
 An add-on for browsers to redirect `r/…` from the URL bar or search engines to the respective subreddit.
 
 * Override searches for `r/…` in popular search engines to redirect immediately to the respective subreddit.
-* Registers a keyword, so that when you type `r/ `, you search with the r/Redirect add-on which takes you to the respective subreddit.
+* Registers a search keyword, so that when you type `r/ `, you search with the r/Redirect add-on which takes you to the respective subreddit.
 
 ## LibRedirect
 
