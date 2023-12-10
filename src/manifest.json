@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "r/Slash",
-  "version": "1.0.0",
-  "description": "Redirects r/… from the URL bar or search engines to the respective subreddit.",
+  "name": "r/Redirect",
+  "version": "1.1.0",
+  "description": "Redirects searches for a subreddit to the respective subreddit. For example, a search for r/memes will be redirected to the subreddit instead of search results.",
   "icons": {
     "48": "icons/icon.svg",
     "96": "icons/icon.svg"
