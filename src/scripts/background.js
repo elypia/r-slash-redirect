@@ -1,5 +1,5 @@
 /*
- * Copyright 2022-2022 Elypia and Contributors
+ * Copyright 2022-2023 Elypia and Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -33,7 +33,7 @@ const globalUrlFilter = {
   ]
 }
 
-/** Only listen to web navigations to the following URLs. */
+/** Only listen to web navigation to the following URLs. */
 const urlFilter = {
   url: [
     {
@@ -111,8 +111,9 @@ function onSearchEngineNavigation(details) {
   for (const searchParamValue of searchParams.values()) {
     const match = searchParamValue.match(subredditPattern);
 
-    if (match === null)
+    if (match === null) {
       continue;
+    }
 
     const subreddit = match[1];
     openSubreddit(subreddit);
