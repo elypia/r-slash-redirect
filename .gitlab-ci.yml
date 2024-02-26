@@ -20,7 +20,7 @@ lint:
 build:
   stage: build
   script:
-    - web-ext build -s src
+    - web-ext build -s src -n r-slash-redirect-{version}.zip
   artifacts:
     paths:
       - web-ext-artifacts/
