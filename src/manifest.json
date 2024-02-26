@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "r/Redirect",
-  "version": "1.1.0",
-  "description": "Redirects searches for a subreddit to the respective subreddit. For example, a search for r/memes will be redirected to the subreddit instead of search results.",
+  "version": "1.1.1",
+  "description": "Redirects searches for a subreddit on Reddit directly to the respective subreddit. For example, a search for r/memes will be redirected to the Memes subreddit instead of search results.",
   "icons": {
     "48": "icons/icon.svg",
     "96": "icons/icon.svg"

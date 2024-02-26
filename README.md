@@ -1,6 +1,6 @@
 # r/Redirect
 
-[![Build Status](https://gitlab.com/Elypia/r-redirect/badges/main/pipeline.svg)](https://gitlab.com/Elypia/r-redirect/commits/main)
+[![Build Status](https://gitlab.com/Elypia/r-slash-redirect/badges/main/pipeline.svg)](https://gitlab.com/Elypia/r-slash-redirect/commits/main)
 
 ## About
 
@@ -18,4 +18,4 @@ This add-on pairs well with [LibRedirect](https://libredirect.github.io/). If yo
 You can instead use DuckDuckGo as your default search engine. DuckDuckGo features [Bangs](https://duckduckgo.com/bangs) which can achieve a similar result, no add-on required.
 
 1. Set DuckDuckGo as your [default search engine](https://duckduckgo.com/set-as-default).
-2. In the URL bar on DuckDuckGo search page, use the `sr` bang, short for **s**ub**r**eddit. Searches like `!sr …` will perform the same behavior as this extension.
+2. In the URL bar or DuckDuckGo search page, use the `sr` bang, short for **s**ub**r**eddit. Searches like `!sr …` will perform the same behavior as this extension.
