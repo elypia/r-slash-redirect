@@ -3,4 +3,4 @@ install-prerequisites:
 
 build:
 	rm -f web-ext-artifacts/*.zip
-	web-ext build -s src
+	web-ext build -s src -n r-slash-redirect-{version}.zip

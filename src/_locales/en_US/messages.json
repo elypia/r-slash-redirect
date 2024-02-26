@@ -1,0 +1,18 @@
+{
+  "extensionName": {
+    "message": "r/Redirect",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Redirects searches for a subreddit on Reddit directly to the respective subreddit. For example, a search for r/memes will be redirected to the Memes subreddit instead of search results.",
+    "description": "Description of the extension."
+  },
+  "extensionAuthor": {
+    "message": "Seth Falco",
+    "description": "Name of the author of the extension."
+  },
+  "extensionHomePageUrl": {
+    "message": "https://gitlab.com/Elypia/r-slash-redirect",
+    "description": "Homepage of the extension."
+  }
+}
