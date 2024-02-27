@@ -4,7 +4,7 @@
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Redirects searches for a subreddit on Reddit directly to the respective subreddit. For example, a search for r/memes will be redirected to the Memes subreddit instead of search results.",
+    "message": "Redirects searches for a subreddit directly to the respective subreddit on Reddit. For example, a search for r/memes will be redirected to the Memes subreddit instead of search results.",
     "description": "Description of the extension."
   },
   "extensionAuthor": {
